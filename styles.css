@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upper {
+    background: url(bg1.png) no-repeat;
+    background-size: cover;
+    height: 522px;
+    padding-top: 200px;
+    padding-left: 240px;
+}
+
+.upper__title {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 16px;
+    width: 394px;
+}
+
+.upper__discription {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    width: 402px;
+    color: white;
+
+}
+
+.middle {
+    display: flex;
+
+}
+
+.middle__left {
+    width: 50%;
+}
+
+
+.middle__right {
+    width: 50%;
+    height: 720px;
+    background: rgba(207, 199, 192, 1);
+
+
+}
+
+.middle__img {
+    object-fit: cover;
+    width: 100%;
+    height: 720px;
+}
+
+.middle__logo {
+    padding-top: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 3px;
+    color: #333333;
+}
+
+.title__line {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 35px;
+}
+
+.title__line-item {
+    background: #333333;
+    width: 73px;
+    height: 1px;
+}
+
+.container {
+    padding-right: 39px;
+    padding-top: 168px;
+    display: flex;
+    justify-content: space-between;
+    color: #333333;
+}
+
+.container__title {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.maz {
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.container__discription {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 21px;
+
+}
+
+.container__discription2 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    width: 401px;
+    height: 90px;
+    margin-bottom: 26px;
+
+}
+
+.button1 {
+    width: 396px;
+    height: 60px;
+    background: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.button2 {
+    border: 1px #333333 solid;
+    width: 396px;
+    height: 60px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.button2__text {
+    margin-left: 88px;
+    margin-right: 84px;
+}
+
