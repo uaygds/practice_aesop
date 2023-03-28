@@ -843,19 +843,39 @@
 
 .popular__view-all__btn-item {
     color: #030D15;
-    border: none;
-    background-color: white;
+
+    background-color: transparent;
     margin-top: 56px;
     font-family: inherit;
     font-weight: 600;
     font-size: 14px;
     cursor: pointer;
     vertical-align: middle;
+    position: relative;
+}
+
+.popular__view-all__btn-item::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+.popular__view-all__btn-item:hover:after {
+    width: 100%;
+    transition: 0.2s linear;
 }
 
 .btn-item-arrow {
     margin-left: 10px;
     vertical-align: text-up;
+    display: none; /* выключил стрелку, ибо сделал покрасивее))))*/
 }
 
 /*POPULAR*/
@@ -1106,9 +1126,15 @@ input::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.2s ease;
+    cursor: pointer;
 
 }
 
+.btn__sub:hover {
+    background:rgb(25, 92, 143) ;
+
+}
 
 /* FOOTER */
 
