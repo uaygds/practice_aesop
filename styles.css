@@ -699,6 +699,7 @@
     height: 518px;
     background-color: white;
     position: relative;
+    transition: 0.2s linear;
 
 }
 
@@ -765,14 +766,57 @@
 
 
 .active-popular__product-panel {
-
+    width: 0;
     padding: 0 35px;
     width: 356px;
     height: 160px;
     background-color: rgba(250, 250, 250, 1);
     position: relative;
-    transition: box-shadow 0.1s linear;
+    transition: box-shadow 1s linear;
 
+}
+
+.active-popular__product:hover .active-popular__product-panel {
+    z-index: 3 ;
+
+}
+
+.standart__panel {
+    position: absolute;
+    padding: 40px 89px 36px 35px;
+    width: 356px;
+    height: 160px;
+
+    z-index: 1;
+    background-color: white;
+    font-family: "Hind Siliguri";
+
+
+
+}
+
+.standart__panel__name {
+    width: 236px;
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.standart__panel__price {
+
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.standart__panel__price_item {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(3, 13, 21, 0.6);
+    
 }
 
 .active-popular__product-panel-clav {
